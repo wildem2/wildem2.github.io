@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Garamond, Arial, Helvetica, sans-serif;
+    background-color: #C4D8D1;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+
+}
+
+/* Classes */
+.box {
+    border-style: double; 
+    border-color: #DC946A;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+.gray {
+    background-color: #C4D8D1;
+}
+
+.middle-space {
+    padding-left: 20px;
+}
+
+.clearfix {
+    overflow: under;
+}
+
+.clearfix2 {
+    padding-left: 260px;
+    width: 100%;
+}
+
+.clearfix3 {
+    padding-left: 350px;
+    width: 135%;
+}
+
+.column {
+    float: left;
+    position: relative;
+    width: 33.333%;
+    padding: 20px;
+}
+
+.flex-container {
+   display: relative;
+
+}
+
+.flex-column {
+    flex: 3;
